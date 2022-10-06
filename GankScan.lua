@@ -1,7 +1,3 @@
--- Idéer
--- Spela musik om någon i listan dör, kolla i combat log på kill blow.
--- Resetta efter att kolla i combat logg?
--- Lägg till UI?
 local GankScan = CreateFrame("Frame")
 
 local CHECK_INTERVAL = 5
@@ -45,7 +41,6 @@ do
         if not TimeSoundLastPlayed or GetTime() - TimeSoundLastPlayed > 5 then
             TimeSoundLastPlayed = GetTime()
             PlaySoundFile([[Interface\AddOns\GankScan\Assets\Sound\Hee-hee.ogg]], 'Master')
-            -- PlaySoundFile([[Interface\AddOns\GankScan\Assets\Sound\Ganker-music.ogg]], 'Master')
         end
     end
 end
