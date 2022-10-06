@@ -1,0 +1,6 @@
+## Interface: 30400
+## Title: GankScan
+## Author: Mikate
+## Version: 1.0.0
+## SavedVariables: GankTargets
+GankScan.lua
