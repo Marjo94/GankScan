@@ -10,6 +10,7 @@ end)
 GankScan:SetScript("OnEvent", function(_, event, arg1)
     if event == "ADDON_LOADED" and arg1 == "GankScan" then
         GankScan.Load()
+        GankScan.SetupInterfaceSettings()
     elseif event == 'ADDON_ACTION_FORBIDDEN' and arg1 == 'GankScan' then
         foundTarget = true
     elseif event == "PLAYER_TARGET_CHANGED" then

@@ -4,6 +4,7 @@
 ## Version: 1.0.0
 ## SavedVariables: GankTargets
 GankScan.lua
+GankScanUI.lua
 Util.lua
 SlashCommands.lua
 Main.lua
